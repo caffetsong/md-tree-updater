@@ -1,8 +1,4 @@
-Of course. Here is the complete, professional English translation of your `README.md`. It's designed to be clear, idiomatic, and appealing to an international developer audience, while maintaining the excellent structure of your original document.
-
----
-
-**English** | [<u>简体中文</u>](./README.zh-cn.md)
+[<u>简体中文</u>](./README.zh-cn.md) | **English**  
 
 # md-tree-updater 🌳
 A tool to automatically generate and update a project directory tree in your Markdown files.
