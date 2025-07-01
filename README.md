@@ -52,14 +52,16 @@ Open the `package.json` file in your project's root directory and add a new comm
   "//": "Your other scripts...",
   "tree:update": "node scripts/md-tree-updater.mjs"
 },
-```> **Note**: Ensure the path after `node` matches the actual location where you placed `md-tree-updater.mjs` in step 1.
+```
+> **Note**: Ensure the path after `node` matches the actual location where you placed `md-tree-updater.mjs` in step 1.
 
 ### 4. Run It!
 In the root directory of your project (`your-project`), run the following command to use the tool:
 
 ```bash
 npm run tree:update
-```> **First-time use**: The script will automatically generate the necessary configuration files and the target Markdown file based on `tree-config.mjs`. To avoid any issues, we recommend editing `tree-config.mjs` to your liking before running the script for the first time.
+```
+> **First-time use**: The script will automatically generate the necessary configuration files and the target Markdown file based on `tree-config.mjs`. To avoid any issues, we recommend editing `tree-config.mjs` to your liking before running the script for the first time.
 
 ## Configuration Files Explained
 Your final project structure will include the following files:
